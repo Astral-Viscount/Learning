@@ -26,8 +26,36 @@ console.log(typeof online);
 
 */
 
-/* With HTML */
+/* With HTML 
 
 let name = "Mahi";
 
 document.getElementById("heading").textContent = `My name is ${name}`;
+*/
+
+/* Arithmetic Operators */
+
+let students = 30;
+
+students = students + 1;
+students += 1;
+students ++;
+
+students = students - 1;
+students -= 1;
+students --;
+
+students = students * 1;
+students *= 1;
+
+students = students / 5;
+students /= 5;
+
+students = students ** 2;
+students **= 2;
+
+students = students % 3;
+students %= 3;
+
+console.log(students);
+
