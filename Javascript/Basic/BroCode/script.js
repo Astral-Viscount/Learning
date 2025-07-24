@@ -33,7 +33,7 @@ let name = "Mahi";
 document.getElementById("heading").textContent = `My name is ${name}`;
 */
 
-/* Arithmetic Operators */
+/* Arithmetic Operators
 
 let students = 30;
 
@@ -58,4 +58,26 @@ students = students % 3;
 students %= 3;
 
 console.log(students);
+
+let num = 12 / 2 * 10 % 5 -(7 - 4) ** 3
+
+console.log(num)
+*/
+
+/* User Input */
+
+// Widnow Prompt
+
+let username;
+
+username = window.prompt("What's your username: ");
+
+console.log(username);
+
+//HTML Textbox
+
+document.getElementById("submit").onclick = function(){
+    let username = document.getElementById("input").value;
+    document.getElementById("heading").textContent = `Hello ${username}`;
+}
 
