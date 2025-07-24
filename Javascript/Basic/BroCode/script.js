@@ -64,7 +64,7 @@ let num = 12 / 2 * 10 % 5 -(7 - 4) ** 3
 console.log(num)
 */
 
-/* User Input */
+/* User Input
 
 // Widnow Prompt
 
@@ -80,4 +80,24 @@ document.getElementById("submit").onclick = function(){
     let username = document.getElementById("input").value;
     document.getElementById("heading").textContent = `Hello ${username}`;
 }
+*/
+
+/* Type Conversion */
+
+let age = window.prompt("What's your age: ");
+
+age = Number(age);
+console.log(age, typeof age);
+
+let x = "pizza";
+let y = 0;
+let z = "";
+
+x = Number(x);
+y = String(y);
+z = Boolean(z);
+
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);
 
