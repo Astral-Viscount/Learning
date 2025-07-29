@@ -82,7 +82,7 @@ document.getElementById("submit").onclick = function(){
 }
 */
 
-/* Type Conversion */
+/* Type Conversion 
 
 let age = window.prompt("What's your age: ");
 
@@ -97,7 +97,18 @@ x = Number(x);
 y = String(y);
 z = Boolean(z);
 
+let a;
+console.log(a, typeof a)
+
 console.log(x, typeof x);
 console.log(y, typeof y);
 console.log(z, typeof z);
+*/
+
+/* Constants */
+
+// Circumference Calculator
+
+let pi = 3.14159;
+
 
