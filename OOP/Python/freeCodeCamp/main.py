@@ -2,7 +2,7 @@ class Students:
     avg_rate = 0.8 #On average students show up 80% of the time of the submiited time
     everyone = []
 
-    def __init__(self, name:str, attendance: int, week = 0):
+    def __init__(self, name:str, attendance:int, week = 0):
 
         #Validate the values received with Custom Exception Errors
         assert attendance >= 0, f"Attendance must be more than or equal to 0 days! Attendance Received: {attendance}"
