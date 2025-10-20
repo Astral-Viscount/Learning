@@ -1,3 +1,3 @@
-class Bank:
-    pass
+class Microwave:
+    ...
 
