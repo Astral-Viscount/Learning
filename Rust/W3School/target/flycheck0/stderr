@@ -1,0 +1,60 @@
+   0.017467400s  INFO prepare_target{force=false package_id=W3School v0.1.0 (C:\PersonalUse\Programming\Learning\Rust\W3School) target="W3School"}: cargo::core::compiler::fingerprint: fingerprint error for W3School v0.1.0 (C:\PersonalUse\Programming\Learning\Rust\W3School)/Check { test: false }/TargetInner { name: "W3School", doc: true, ..: with_path("C:\\PersonalUse\\Programming\\Learning\\Rust\\W3School\\src\\main.rs", Edition2024) }
+   0.017514400s  INFO prepare_target{force=false package_id=W3School v0.1.0 (C:\PersonalUse\Programming\Learning\Rust\W3School) target="W3School"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\PersonalUse\Programming\Learning\Rust\W3School\target\debug\.fingerprint\W3School-5504eb3ab004c233\bin-W3School`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.029737600s  INFO prepare_target{force=false package_id=W3School v0.1.0 (C:\PersonalUse\Programming\Learning\Rust\W3School) target="W3School"}: cargo::core::compiler::fingerprint: fingerprint error for W3School v0.1.0 (C:\PersonalUse\Programming\Learning\Rust\W3School)/Check { test: true }/TargetInner { name: "W3School", doc: true, ..: with_path("C:\\PersonalUse\\Programming\\Learning\\Rust\\W3School\\src\\main.rs", Edition2024) }
+   0.029764100s  INFO prepare_target{force=false package_id=W3School v0.1.0 (C:\PersonalUse\Programming\Learning\Rust\W3School) target="W3School"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\PersonalUse\Programming\Learning\Rust\W3School\target\debug\.fingerprint\W3School-2a8d00277aea8acc\test-bin-W3School`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking W3School v0.1.0 (C:\PersonalUse\Programming\Learning\Rust\W3School)
+error: could not compile `W3School` (bin "W3School" test) due to 4 previous errors; 1 warning emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `W3School` (bin "W3School") due to 4 previous errors; 1 warning emitted
