@@ -26,3 +26,4 @@ test.py
 # Won't ignore these .exe files
 # !special.exe
 AI-Adder
+target/
